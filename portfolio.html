@@ -18,22 +18,24 @@
 
 <body>
     <header class="header-page">
-        <div class="container flex-header">
+        <div class="container">
             <a href="./index.html" class="logo primary">Web<span class="part">Studio</span></a>
-            <nav>
-                <ul class="pages list">
+            <nav class="header-nav">
+                <ul class="header-list list">
                     <li class="item"><a href="./index.html" class="menu current">Студия</a></li>
                     <li class="item"><a href="./portfolio.html" class="menu">Портфолио</a></li>
                     <li class="item"><a href="" class="menu">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contacts list">
+            <ul class="contacts-list list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
     <main>
+
+        <!--                  NAVIGATION PORTFOLIO                      -->
         <section>
         <h1 class="visually-hidden ">Навигация по портфолио</h1>
         <div class="container">
@@ -44,7 +46,11 @@
                 <li class="item"><button type="button" class="link">Дизайн</button></li>
                 <li class="item"><button type="button" class="link">Маркетинг</button></li>
             </ul>
-            <ul class="examples examples-nav list">
+        </div>
+        <!--                   EXAMPLES GRID                            -->
+
+        <div class="container examples">
+            <ul class="examples-nav list">
                 <li class="flex-elements">
                     <img src="./images/technokryak.jpg" width=370 alt="Технокряк вэбсайт">
                     <h2 class="title">Технокряк</h2>
@@ -94,16 +100,23 @@
         </div>
         </section>
     </main>
-    <footer class="footer">
-        <a href="./index.html" class="logo secondary">Web<span class="part">Studio</span></a>
+
+    <!--  SECTION FOOTER  -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="logo-whole">
+            <a href="./index.html" class="logo secondary">Web<span class="part">Studio</span></a>
+        </div>
         <address>
             <ul class="address list">
-                    <li><a href="" class="post">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@example.com" class="item">info@example.com</a></li>
-                    <li><a href="tel:+380991111111" class="item">+38 099 111 11 11</a></li>
+                <li class="item-li"><a href="" class="post">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="item-li"><a href="mailto:info@example.com" class="item">info@example.com</a></li>
+                <li class="item-li"><a href="tel:+380991111111" class="item">+38 099 111 11 11</a></li>
             </ul>
         </address>
-    </footer>
+    </div>
+</footer>
 </body>
 
 </html>
