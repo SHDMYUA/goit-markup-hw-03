@@ -69,7 +69,7 @@ body {
 
 /* -------------------- SECTION NAVIGATION ------------- */
 .header-page {
-  width: 1600px;
+  /* width: 1600px; */
   background: var(--bg-primary-color);
 }
 /* -------------------- SECTION LOGO ----------------------- */
@@ -110,9 +110,9 @@ body {
   text-decoration: none;
 }
 
-.contacts-list {
+/* .contacts-list {
   margin-left: auto;
-}
+} */
 
 .header-page .link {
 
@@ -161,14 +161,10 @@ body {
 /* -------------------- SECTION HERO ----------------------- */
 
 .hero {
-  display: inline-block;
-  width: 1600px;
-  height: 600;
-  margin: 0 auto;
-  outline: 5px solid tomato;
   text-align: center;
   background-color: var(--bg-footer-color);
-  margin-bottom: 94px;}
+  margin-bottom: 94px;
+}
 
 .hero-title {
   margin-bottom: 30px;
@@ -194,7 +190,7 @@ body {
   height: 50px;
   border-radius: 4px;
   border: 1px transparent;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   padding: 10px 32px;
 }
 
