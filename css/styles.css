@@ -69,7 +69,6 @@ body {
 
 /* -------------------- SECTION NAVIGATION ------------- */
 .header-page {
-  /* width: 1600px; */
   background: var(--bg-primary-color);
 }
 /* -------------------- SECTION LOGO ----------------------- */
@@ -114,6 +113,7 @@ body {
 .header-list {
   display: flex;
 }
+
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -258,8 +258,11 @@ margin-bottom: 10px;
   margin-bottom: 94px;
   display: flex;
   justify-content: center;
-  
 }
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+  margin-bottom: 94px;
+  }
 
 
 /* -------------------- SECTION TEAM AND EXPERIANCE ----------------------- */
@@ -271,28 +274,22 @@ margin-bottom: 10px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  /* text-align: center; */
+  text-align: center;
 }
 
-/* .development {
+.container .development {
   display: flex;
-  justify-content: center;
-} */
+  align-items: center;
+}
 
 .development-item {
   width: 370px;
+  margin-bottom: 94px;
+}
+
+.development-item:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 30px;
-
-}
-/* 
-.development-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.development-item:nth-not-child(3n) {
-  margin-left: 0;
-} */
+  }
 
 .team {
   /* display: flex; */
