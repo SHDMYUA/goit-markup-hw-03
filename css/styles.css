@@ -75,8 +75,9 @@ section {
   background: var(--bg-primary-color);
   margin-top: 24px;
   padding-top: auto;
-  padding-bottom: auto;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
+  
 }
 /* -------------------- SECTION LOGO ----------------------- */
 
@@ -132,6 +133,7 @@ margin-right: 50px;
 .header-flex {
   display: flex;
   align-items: center;
+  
 }
 
 .header-page .link {
@@ -245,7 +247,6 @@ margin-right: 50px;
   margin-bottom: 200px;
   padding-top: auto;
   padding-bottom: auto;
-  border-top: 1px solid #ECECEC;
 }
 
 .hero-title {
