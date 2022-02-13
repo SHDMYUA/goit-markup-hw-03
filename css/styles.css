@@ -295,6 +295,7 @@ margin-bottom: 10px;
   display: flex;
   justify-content: center;
   background-color: var(--bg-secondary-color);
+  padding-top: 94px;
 }
 
 .team-img {
@@ -303,10 +304,17 @@ margin-bottom: 10px;
 
 .team-item {
   width: 270px;
-  margin-right: 30px;
   background-color: var(--bg-primary-color);
   text-align: center;
   margin-bottom: 94px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+  }
+
+.team-list {
+  display: flex;
 }
 
 .team-member ,
