@@ -64,7 +64,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 2px solid green ;
 
 }
 
@@ -185,6 +184,7 @@ margin-right: 50px;
   text-align: center;
   background-color: var(--bg-footer-color);
   margin-bottom: 94px;
+  border-top: 1px solid #ECECEC;
 }
 
 .hero-title {
