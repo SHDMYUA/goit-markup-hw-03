@@ -114,6 +114,17 @@ body {
 /* .contacts-list {
   margin-left: auto;
 } */
+.header-list {
+  display: flex;
+}
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-flex {
+  display: flex;
+}
 
 .header-page .link {
 
