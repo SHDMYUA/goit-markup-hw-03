@@ -74,7 +74,7 @@ section {
 .header-page {
   background: var(--bg-primary-color);
   margin-top: 24px;
-  padding-top: auto;
+  /* padding-top: auto; */
   padding-bottom: 25px;
   border-bottom: 1px solid #ECECEC;
   
@@ -243,10 +243,10 @@ margin-right: 50px;
 .hero {
   text-align: center;
   background-color: var(--bg-footer-color);
-  margin-top: 200px;
+  /* margin-top: 200px;
   margin-bottom: 200px;
   padding-top: auto;
-  padding-bottom: auto;
+  padding-bottom: auto; */
 }
 
 .hero-title {
@@ -303,16 +303,11 @@ margin-bottom: 10px;
 }
 
 .benefits {
-  /* margin-top: 94px;
-  margin-bottom: 94px;
-  padding-top: auto;
-  padding-bottom: auto; */
   display: flex;
   justify-content: center;
 }
 .benefits-item:not(:last-child) {
   margin-right: 30px;
-  margin-bottom: 94px;
   }
 
 
@@ -346,7 +341,6 @@ margin-bottom: 10px;
   display: flex;
   justify-content: center;
   background-color: var(--bg-secondary-color);
-  padding-top: 94px;
 }
 
 .team-img {
@@ -357,7 +351,6 @@ margin-bottom: 10px;
   width: 270px;
   background-color: var(--bg-primary-color);
   text-align: center;
-  margin-bottom: 94px;
   border-radius: 0px 0px 4px 4px;
 }
 
