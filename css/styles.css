@@ -373,10 +373,14 @@ margin-bottom: 10px;
   color: var(--accent-text-color);
 }
 
+.logo-whole {
+  margin-bottom: 20px;
+  
+}
 .item-li {
   margin-bottom: 9px;
 }
 
-/* .item-li:last-child {
-  margin-bottom: 40px;
-} */
+.item-li:last-child {
+  margin-bottom: 0px;
+}
