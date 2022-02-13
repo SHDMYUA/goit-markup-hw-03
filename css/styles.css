@@ -70,6 +70,10 @@ body {
 /* -------------------- SECTION NAVIGATION ------------- */
 .header-page {
   background: var(--bg-primary-color);
+  margin-top: 24px;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-bottom: 25px;
 }
 /* -------------------- SECTION LOGO ----------------------- */
 
@@ -81,11 +85,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
-
-.logo-whole {
-  margin-top: 60px;
-  margin-bottom: 20px;
 }
 
 .logo.primary .part {
@@ -130,8 +129,6 @@ margin-right: 50px;
 .header-flex {
   display: flex;
   align-items: center;
-  margin-top: 23px;
-  margin-bottom: 23px;
 }
 
 .header-page .link {
@@ -183,7 +180,10 @@ margin-right: 50px;
 .hero {
   text-align: center;
   background-color: var(--bg-footer-color);
-  margin-bottom: 94px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding-top: auto;
+  padding-bottom: auto;
   border-top: 1px solid #ECECEC;
 }
 
@@ -195,7 +195,6 @@ margin-right: 50px;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  /* padding-top: 200px; */
 }
 
 .button {
@@ -211,13 +210,12 @@ margin-right: 50px;
   height: 50px;
   border-radius: 4px;
   border: 1px transparent;
-  margin-bottom: 200px;
   padding: 10px 32px;
 }
 
 /* -------------------- SECTION REASONS ----------------------- */
 
-.benefits .item {
+.benefits-item {
   width: 270px;
 }
 
@@ -255,7 +253,10 @@ margin-bottom: 10px;
 }
 
 .benefits {
+  /* margin-top: 94px;
   margin-bottom: 94px;
+  padding-top: auto;
+  padding-bottom: auto; */
   display: flex;
   justify-content: center;
 }
@@ -307,6 +308,7 @@ margin-bottom: 10px;
   background-color: var(--bg-primary-color);
   text-align: center;
   margin-bottom: 94px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item:not(:last-child) {
@@ -338,6 +340,7 @@ margin-bottom: 10px;
 
 .footer { 
   background: var(--bg-footer-color);
+  padding-top: 60px;padding-bottom: 60px;
 }
 
 .address .post {
@@ -374,6 +377,6 @@ margin-bottom: 10px;
   margin-bottom: 9px;
 }
 
-.item-li:last-child {
+/* .item-li:last-child {
   margin-bottom: 40px;
-}
+} */
